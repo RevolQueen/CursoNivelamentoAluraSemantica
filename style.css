@@ -1,0 +1,15 @@
+/* The doc of the CSS has to go in other doc, because if we do with the HTML the code will be a messing.*/
+body{ /* To make a change in a HTML part we can call direct the part that we can change, and use {} to make the changes that we want. Here, we selected the body of the page. */
+
+    background-color:black; /* This property is what defines the background color, like the name sugests, and for here, like I'm following a design, the background will be black. */
+
+    color: lightgray; /* To change the color of the text, we can call the property color. Besides the design said that the text color is white, I made the choice to use lightgray. This decision is because of the contrast of the black and white, what if be used will cause pain in the eye. */
+    
+    main{
+        h1{
+            strong{
+                color: #22D4fd;
+            }
+        }
+    }
+}
